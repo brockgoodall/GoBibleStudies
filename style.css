@@ -104,13 +104,13 @@ h3 {
 .button {
     display: block;
     margin: 0 auto;
-    margin-bottom: 3%;
+    margin-bottom: 1%;
     background-color: #00A651;
     cursor: pointer;
   	border: none;
   	color: white;
   	padding: 18px 14px;
-  	width: 70%;
+  	width: 40%;
     max-width: 500px;
   	text-align: center;
   	text-decoration: none;
@@ -213,6 +213,14 @@ a {
     .videos iframe {
         width: 375px;
     }
+    
+    video {
+        width: 375px;
+    }
+    
+    .button {
+        margin-bottom: 3%;
+        width: 60%;
 }
 
 .active {
