@@ -131,38 +131,6 @@ h3 {
     background: #97DAB8;
 }
 
-.small-button {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 1%;
-    background-color: #00A651;
-    cursor: pointer;
-  	border: none;
-  	color: white;
-  	padding: 14px 14px;
-  	width: 15%;
-    max-width: 150px;
-  	text-align: center;
-  	text-decoration: none;
-  	letter-spacing: 2px;
-  	font-size: 20px;
-  	transition-duration: 0.2s;
-  	text-decoration: none;
-  	vertical-align: middle;
-    font-size: 16px;
-}
-
-.small-button:hover {
-    border: none;
-    background: #33B874;
-}
-
-.small-button:active {
-    border: none;
-    background: #97DAB8;
-}
-
-
 .study-button {
     display: block;
     margin: 0 auto;
@@ -196,7 +164,6 @@ h3 {
     background: #97DAB8;
 }
  
- 
  em {
 	font-weight: bold;
 	font-style: normal;
@@ -226,6 +193,10 @@ a {
 
 .navbar a:hover {
     background-color: #5CC690;
+}
+
+.active {
+    background-color: #33B874;
 }
 
 @media screen and (max-width: 500px) {
@@ -263,10 +234,10 @@ a {
         padding: 12px;
         font-size: 14px;
     }
-}
-
-.active {
-    background-color: #33B874;
+    
+    h1 {
+        font-size: 24px;
+    }
 }
 
 input[type=text], select, textarea {
