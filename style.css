@@ -306,6 +306,17 @@ input[type=text], select, textarea {
 	resize: vertical;
 }
 
+input[type=email], select, textarea {
+	width: 100%; 
+	padding: 12px; 
+	border: 1px solid #ccc; 
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px; 
+	margin-bottom: 16px; 
+	resize: vertical;
+}
+
 input[type=submit] {
   	background-color: #00A651;
   	color: white;
@@ -319,7 +330,7 @@ input[type=submit]:hover {
 	background-color: #33B874;
 }
 
-.container {
+form {
 	grid-area: container;
     margin-right: auto;
     margin-left: auto;
@@ -330,17 +341,25 @@ input[type=submit]:hover {
 	max-width: 472px;
 }
 
-.info-and-contact {
-    background-color: #87423C;
-    display: grid;
-    grid-template-columns: 30% 70%;
-    grid-template-areas: 
-        "description container";
-    padding-top: 20px;
-    padding-bottom: 30px;
-    padding-left: 150px;
-    padding-right: 150px;
+form button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    background-color: #00A651;
+    cursor: pointer;
+  	border: none;
+  	color: white;
+  	padding: 16px;
+  	width: 40%;
+    max-width: 300px;
+  	text-align: center;
+  	text-decoration: none;
+  	font-size: 14px;
+  	transition-duration: 0.2s;
+  	text-decoration: none;
+  	vertical-align: middle;
 }
+
 
 footer {    
     color: #00A651;
