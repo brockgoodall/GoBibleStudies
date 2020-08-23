@@ -261,6 +261,7 @@ a {
     .study-button {
         letter-spacing: 1.5px;
         font-size: 16px;
+        margin-bottom: 5%;
     }
     
     .videos iframe {
